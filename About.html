@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website Design - ShevaAlfath</title>
+    <link rel="stylesheet" href="NewStyle.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/46539eecbe.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Service.html">SERVICE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>About Our Facilities</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quis dolorem expedita saepe ea perferendis itaque! Asperiores eius temporibus eaque aperiam esse! Velit earum fugiat beatae aperiam eaque, nostrum debitis odio aut eius voluptatibus delectus. Neque totam facere alias sunt? Nesciunt non dolorum provident dolore odio, eligendi error architecto illo.</p>
+                <a href="Service.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet ipsam,pariatur voluptates sapiente animi,<br>iusto beatae quam vitae, magni ipsum soluta amet ab harum?</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>Made By ShevaAlfath<p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
